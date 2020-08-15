@@ -26,6 +26,10 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
+  html {
+	scroll-behavior: smooth;
+  }
+
 /**
  * Remove default margin.
  */
@@ -377,7 +381,9 @@ th {
   border-bottom: 1px solid #F0EEEE; }
 
 .yellow {
-  color: #F5C453; }
+  /* color: #F5C453;  */
+  color: #779e24; 
+}
 
 .light-grey {
   color: #F0EEEE; }
@@ -603,7 +609,7 @@ nav {
 .site-logo:hover {
   opacity: 1; }
 .site-logo:hover #BA {
-  fill: #F5C453; }
+  fill: #769f22; }
 .site-logo:hover #logo-stroke {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -620,9 +626,9 @@ nav {
   transition: transform 0.5s ease-in-out; }
 
 .social-icon {
-  display: none; }
+  display: block; }
   .social-icon a:hover {
-    color: #F5C453;
+    color: #769f22;
     border-bottom: 0px; }
 
 .mobile-nav {
